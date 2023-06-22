@@ -24,4 +24,4 @@ curl --location 'yourhost/api/transfer' \
 </code>
 
 ### Get the most active users in last 10 minutes with their 10 last transaction
-<code> curl --location 'yourhost/api/users/most-transactions' </code> 
+<code> curl --location 'yourhost/api/users/most-transactions?since=2023-06-22%2014%3A52%3A03' </code> 

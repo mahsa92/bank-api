@@ -17,6 +17,6 @@ class Transaction extends Model
     ];
     public function card()
     {
-        return $this->belongsTo(Card::class);
+        return $this->belongsTo(Card::class, 'sender_card_id');
     }
 }
