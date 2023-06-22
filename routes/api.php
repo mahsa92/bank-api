@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::post('transfer', [TransferController::class, '__invoke']);
-//Route::get('/users/most-transactions', [UserController::class, 'mostTransactions']);
+Route::get('/users/most-transactions', [UserController::class, 'mostTransactions']);

@@ -14,6 +14,7 @@
 </code>
 
 ## Usage Sample
+### Transfer Api
 <code> 
 curl --location 'yourhost/api/transfer' \
 --header 'Accept: application/json' \
@@ -21,3 +22,6 @@ curl --location 'yourhost/api/transfer' \
 --form 'receiver_card_number="anyvalidCard"' \
 --form 'amount="1000"'
 </code>
+
+### Get the most active users in last 10 minutes with their 10 last transaction
+<code> curl --location 'yourhost/api/users/most-transactions' </code> 
