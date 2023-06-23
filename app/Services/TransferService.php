@@ -2,14 +2,11 @@
 
 namespace App\Services;
 
-use App\Models\Card;
-use App\Models\User;
-use App\Repositories\AccountRepository;
-use App\Repositories\TransactionRepository;
-use App\Services\Notifier\NotificationStrategyFactory;
-use App\Services\Notifier\Notifier;
+use App\Models\{Card, User};
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Lang;
+use App\Services\Notifier\{Notifier, NotificationStrategyFactory};
+use App\Repositories\{AccountRepository, TransactionRepository};
 
 class TransferService
 {

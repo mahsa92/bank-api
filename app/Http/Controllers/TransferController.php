@@ -8,7 +8,6 @@ use App\Services\TransferService;
 
 class TransferController extends Controller
 {
-
     public function __construct(private CardRepository $cardRepository)
     {}
     public function __invoke(TransferRequest $request, TransferService $transferService)
