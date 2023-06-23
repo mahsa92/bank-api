@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\{TransactionRepository, UserRepository};
 use App\Http\Requests\MostTransactionRequest;
-use App\Repositories\TransactionRepository;
-use App\Repositories\UserRepository;
 use Illuminate\Http\JsonResponse;
 
 class UserController extends Controller
